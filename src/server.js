@@ -1,6 +1,6 @@
 import express from "express";
 require("dotenv").config();
-import configViewEngine from "./configs/viewEngine";
+import configViewEngine from "./config/viewEngine";
 import initWebRoutes from "./routes/web";
 import bodyParser from "body-parser";
 const app = express();
